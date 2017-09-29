@@ -9,12 +9,14 @@ function forLoop(array){
 return array
 }
 
+
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n)
   }
   return 'done'
 }
+
 
 function maybeTrue() {
   return Math.random() >= 0.5
@@ -23,6 +25,7 @@ function maybeTrue() {
 do {
   console.log('doo-bee-doo-bee-doo')
 } while (maybeTrue());
+
 
 function doWhileLoop(array){
   do {
